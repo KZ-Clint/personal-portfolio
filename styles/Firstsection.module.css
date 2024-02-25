@@ -1,0 +1,8 @@
+.firstsection_gen_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0px;
+    background: linear-gradient(90deg, #36065e 0%, #3A1C63 52.84%, #8044cf 100%);
+}

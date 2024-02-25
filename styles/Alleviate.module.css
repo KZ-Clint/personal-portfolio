@@ -1,0 +1,348 @@
+.alleviate_wrapper{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.alleviate_center_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.alleviate_header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 350px;
+    background: linear-gradient(90deg, #8121D0 0%, #3A1C63 52.84%, #291C3A 100%);
+}
+.alleviate_header p{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    color: white;
+}
+.alleviate_body_wrapper{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    background: black;
+    align-items: center;
+    gap: 80px;
+    padding: 80px;
+}
+.alleviate_links_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+.github_code_link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    padding: 14px 80px;
+    text-decoration: none;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+.github_code_link p{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+.alleviate_live_link_wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.alleviate_live_link_wrapper h3{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+.live_link{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(76, 0, 252);
+}
+.toolsgrid{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 20px;
+}
+.desc_gen_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    gap: 40px;
+}
+.desc_p{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: white;
+}
+.desc_tech_expl_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+.desc_tech_expl_wrapper div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.desc_tech_expl_wrapper h1{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: white;
+}
+.desc_tech_expl_wrapper ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.desc_tech_expl_wrapper ul li{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin-left: 50px;
+}
+.desc_tech_expl_wrapper ul li span{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(255, 230, 1);
+}
+.funct_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+.funct_wrapper h2{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: white;
+}
+.funct_wrapper ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.funct_wrapper ul li{
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:1300px) {
+
+    .alleviate_links_wrapper{
+        width: 100%;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+    .toolsgrid{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        row-gap: 40px;
+        column-gap: 80px;
+    }
+    .desc_gen_wrapper{
+        width: 100%;
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+
+    .alleviate_body_wrapper{
+        gap: 80px;
+        padding: 80px 20px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+    .github_code_link{
+        padding: 14px 40px;
+        border-radius: 6px;
+    }
+    .alleviate_live_link_wrapper{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .alleviate_live_link_wrapper h3{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .live_link{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .toolsgrid{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,1fr));
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .alleviate_header{
+        height: 300px;
+    }
+    .alleviate_header p{
+        font-size: 52px;
+    }
+    .desc_p{
+        font-size: 18px;
+        line-height: 28px;
+        color: white;
+    }
+    .desc_tech_expl_wrapper h1{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .desc_tech_expl_wrapper ul li{
+        font-size: 16px;
+        line-height: 28px;
+        margin-left: 40px;
+    }
+    .desc_tech_expl_wrapper ul li span{
+        font-size: 16px;
+        line-height: 28px;
+        color: rgb(255, 230, 1);
+    }
+    .funct_wrapper h2{
+        font-size: 18px;
+        color: white;
+    }
+    .funct_wrapper ul li{
+        font-size: 16px;
+        color: white;
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+
+    .toolsgrid{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .alleviate_header{
+        height: 300px;
+    }
+    .alleviate_header p{
+        font-size: 52px;
+    }
+    .github_code_link{
+        padding: 13px 30px;
+        border-radius: 6px;
+    }
+    .github_code_link svg{
+        font-size: 18px;
+    }
+    .alleviate_live_link_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    .alleviate_live_link_wrapper h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .live_link{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+
+    .alleviate_header{
+        height: 240px;
+    }
+    .alleviate_header p{
+        font-size: 32px;
+    }
+    .desc_p{
+        font-size: 16px;
+        line-height: 26px;
+        color: white;
+    }
+    .desc_tech_expl_wrapper h1{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .desc_tech_expl_wrapper ul li{
+        font-size: 14px;
+        line-height: 26px;
+        margin-left: 30px;
+    }
+    .desc_tech_expl_wrapper ul li span{
+        font-size: 14px;
+        line-height: 26px;
+        color: rgb(255, 230, 1);
+    }
+    .funct_wrapper h2{
+        font-size: 16px;
+        color: white;
+    }
+    .funct_wrapper ul li{
+        font-size: 14px;
+        color: white;
+        margin-left: 30px;
+    }
+
+}
