@@ -22,3 +22,28 @@ export const kcStackTools = [ "HTML", "CSS3", "JavaScript", "React.js", "AWS Amp
 export const kcApiTools = [ "REST APIs" ]
 export const kcFrontLibTools = [ "Axios", "React-Router-Dom" ]
 export const kcBackLibTools = [ "None" ]
+
+export const drupscStackTools = [ "HTML", "CSS3", "JavaScript", "Next.js", "Java", "AWS Amplify","AWS Elastic Beanstalk", "SQL" ]
+export const drupscApiTools = [ "REST APIs", "Google Tag(Analytics)", "Cloudfare Calls", "HLS Streaming(Shaka Player)", "Razorpay"  ]
+export const drupscFrontLibTools = [ "Axios", "react-pdf", "Cookies-next", "Shakaplayer" ]
+export const drupscBackLibTools = [ "Java", "SQL" ]
+
+export const bctStackTools = [ "HTML", "CSS3", "JavaScript", "Next.js", "Django/Python", "MongoDB", "Vercel", "Render" ]
+export const bctApiTools = [ "REST APIs", "Cloudinary"  ]
+export const bctFrontLibTools = [ "Axios", "Material UI Icons", "Cookies-next", "Tiny-mce(Rich text editor)" ]
+export const bctBackLibTools = [ "Python/Django", "MongoDB/Pymongo", "Qrcode", "Python-barcode", "e.t.c" ]
+
+export const upsStackTools = [ "HTML", "CSS3", "JavaScript", "Next.js", "Django/Python", "MongoDB", "Vercel", "Render" ]
+export const upsApiTools = [ "REST APIs", "Cloudinary"  ]
+export const upsFrontLibTools = [ "Axios", "Material UI Icons", "Cookies-next", "Tiny-mce(Rich text editor)" ]
+export const upsBackLibTools = [ "Python/Django", "MongoDB/Pymongo", "Qrcode", "Python-barcode", "e.t.c" ]
+
+export const uhtStackTools = [ "HTML", "CSS3", "JavaScript", "Next.js", "Django/Python", "MongoDB", "AWS Amplify", "AWS Elastic Beanstalk" ]
+export const uhtApiTools = [ "REST APIs", "Cloudinary", "Google Map"  ]
+export const uhtFrontLibTools = [ "Axios", "Fontawesome", "Cookies-next", "Tiny-mce(Rich text editor)", "Google Map" ]
+export const uhtBackLibTools = [ "Python/Django", "MongoDB/Pymongo", "e.t.c" ]
+
+export const ugtStackTools = [ "HTML", "CSS3", "JavaScript", "Next.js", "Django/Python", "MongoDB", "AWS Amplify", "AWS Elastic Beanstalk" ]
+export const ugtApiTools = [ "REST APIs", "Cloudinary", "Google Map"  ]
+export const ugtFrontLibTools = [ "Axios", "Fontawesome", "Cookies-next", "Tiny-mce(Rich text editor)", "Google Map" ]
+export const ugtBackLibTools = [ "Python/Django", "MongoDB/Pymongo", "e.t.c" ]

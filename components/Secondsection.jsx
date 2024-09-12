@@ -44,7 +44,12 @@ export default function Secondsection () {
                     <div className={styles.prj_completed_wrapper} >
                         {/* <h1> {`>${increasedNumb}`} </h1> */}
                         <div className={styles.numbwrap} >
-                            <p className={hasScrolled ? styles.increase : ""}> 4 </p>
+                            <p className={hasScrolled ? styles.increase : ""}> 9 </p>
+                            <p className={hasScrolled ? styles.increase : ""} > 8 </p>
+                            <p className={hasScrolled ? styles.increase : ""}>  7 </p>
+                            <p className={hasScrolled ? styles.increase : ""}> 6 </p>
+                            <p className={hasScrolled ? styles.increase : ""} > 5 </p>
+                            <p className={hasScrolled ? styles.increase : ""}>  4 </p>
                             <p className={hasScrolled ? styles.increase : ""} > 3 </p>
                             <p className={hasScrolled ? styles.increase : ""} > 2 </p>
                             <p className={hasScrolled ? styles.increase : ""} > 1 </p>
